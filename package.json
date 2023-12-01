@@ -1,0 +1,33 @@
+{
+  "name": "tinymce-china-emoticons-plugin",
+  "version": "1.0.0",
+  "description": "适用于TinyMCE v6的贴吧/抖音/B站表情插件。The famous web forums of China's emoticons plugin for TinyMCE v6.",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "TinyMCE",
+    "tieba",
+    "bilibili",
+    "douyin",
+    "plugin",
+    "emoticons",
+    "贴吧表情",
+    "抖音表情",
+    "B站表情"
+  ],
+  "author": "Zhang Yao <zhang@cinea.cc>",
+  "license": "Apache",
+  "dependencies": {
+    "tinymce": "^6"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  }
+}
