@@ -1,4 +1,9 @@
 node_modules/
 .idea/
 .vscode/
+src/
+.gitignore
+pnpm-lock.yaml
+tsconfig.json
+webpack.config.js
 

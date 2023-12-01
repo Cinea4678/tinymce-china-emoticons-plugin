@@ -1,6 +1,6 @@
 {
   "name": "tinymce-china-emoticons-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "适用于TinyMCE v6的贴吧/抖音/B站表情插件。The famous web forums of China's emoticons plugin for TinyMCE v6.",
   "main": "dist/index.js",
   "private": false,
@@ -20,6 +20,7 @@
     "B站表情"
   ],
   "author": "Zhang Yao <zhang@cinea.cc>",
+  "repository": "https://github.com/Cinea4678/tinymce-china-emoticons-plugin",
   "license": "Apache",
   "dependencies": {
     "tinymce": "^6"
